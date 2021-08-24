@@ -40,6 +40,7 @@ use AdamW as optimizer with learn rate 0.0001
 Download datasets [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)
 
  train : 9843
+ 
  test : 2468
 
 ## Quickstart
@@ -47,4 +48,5 @@ Download datasets [here](https://shapenet.cs.stanford.edu/media/modelnet40_norma
 - download dataset and unzip it into 'data'.
 
 - run 'train.py' 
+- 
 - check points will be saved in 'check_points'
