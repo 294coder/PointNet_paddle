@@ -5,7 +5,6 @@ implementation of PointNet using Paddle(classification only).
 ## Paper
 
 ![image-20210825055752643](PointNet_paddle/pic/image-20210825055752643.png)
-
 [here](https://arxiv.org/abs/1612.00593)
 
 ## Environment
