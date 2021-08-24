@@ -48,5 +48,5 @@ Download datasets [here](https://shapenet.cs.stanford.edu/media/modelnet40_norma
 - download dataset and unzip it into 'data'.
 
 - run 'train.py' 
-- 
+
 - check points will be saved in 'check_points'
