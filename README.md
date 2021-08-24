@@ -15,6 +15,11 @@ sklearn>=0.24.0
 paddle>=0.2.0
 
 tqdm
+## Params
+
+Total params: 3,483,377
+Trainable params: 3,459,569
+Non-trainable params: 23,808
 
 ## Performance
 
