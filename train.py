@@ -12,13 +12,11 @@ warnings.filterwarnings("ignore")
 epochs = 50
 val_ep = 5
 
-
-
 module = get_model()
 loss = get_loss()
-train_datasets = ModelNetDataLoader(r'D:\codeblock\code\dachuang\Pointnet\data\modelnet40_normal_resampled',
+train_datasets = ModelNetDataLoader(r'.\data\modelnet40_normal_resampled',
                                     normal_channel=False)
-val_datasets = ModelNetDataLoader(r'D:\codeblock\code\dachuang\Pointnet\data\modelnet40_normal_resampled', split='test',
+val_datasets = ModelNetDataLoader(r'.\data\modelnet40_normal_resampled', split='test',
                                   normal_channel=False)
 
 train_dataloader = paddle.io.DataLoader(train_datasets, batch_size=16, shuffle=True)
