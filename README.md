@@ -25,7 +25,6 @@ use AdamW as optimizer with learn rate 0.0001
 |        PointNet(Offical)        |   89.2   |
 |        PointNet(PyTorch)        |   90.6   |
 | PointNet(Paddle without normal) |   91.2   |
-|  PointNet(Paddle with normal)   |          |
 
 ## Dataset
 
