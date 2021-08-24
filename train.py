@@ -2,8 +2,8 @@ import os
 import pdb
 
 import paddle
-from pointnet_cls import get_model, get_loss
-from modelnet_dataloader import ModelNetDataLoader
+from model.pointnet_cls import get_model, get_loss
+from utils.modelnet_dataloader import ModelNetDataLoader
 from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 import warnings
