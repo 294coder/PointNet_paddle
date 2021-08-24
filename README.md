@@ -4,7 +4,7 @@ implementation of PointNet using Paddle(classification only).
 
 ## Paper
 
-![image-20210825055752643](294coder/PointNet_paddle/pic/image-20210825055752643.png)
+![image-20210825055752643](https://github.com/294coder/PointNet_paddle/blob/main/pic/image-20210825055752643.png)
 
 [here](https://arxiv.org/abs/1612.00593)
 
